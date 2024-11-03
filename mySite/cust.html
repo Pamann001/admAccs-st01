@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminAccess</title>
+    <link rel="stylesheet" href="../Style/cust.css">
+    <link rel="stylesheet" href="../Style/nav.css">
+</head>
+
+<body>
+    <div class="containerCont">
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">AdminAccess</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="main.html" class="active">
+                            <span class="icon">
+                                <ion-icon name="grid-outline"></ion-icon>
+                            </span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="cust.html" class="active">
+                            <span class="icon">
+                                <ion-icon name="people-outline"></ion-icon>
+                            </span>
+                            <span class="title">Customers</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mess.html" class="active">
+                            <span class="icon">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </span>
+                            <span class="title">Messages</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="active">
+                            <span class="icon">
+                                <ion-icon name="help-outline"></ion-icon>
+                            </span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="active">
+                            <span class="icon">
+                                <ion-icon name="settings-outline"></ion-icon>
+                            </span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ========================= Main ==================== -->
+            <div class="main">
+
+                <div class="contcust">
+                    <div class="hd">
+                        <div class="topbar">
+                            <div class="toggle">
+                                <ion-icon name="menu-outline"></ion-icon>
+                            </div>
+                            <div class="Header">
+                                <h2>Customers List</h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="Infit">
+                        <div class="filter">
+                            <span class="active">All Orders</span>
+                            <span>Progress</span>
+                            <span>Pending</span>
+                            <span>Return</span>
+                        </div>
+                        <div class="Input">
+                            <input type="text" placeholder="Search" />
+                        </div>
+                    </div>
+
+                    <div class="Orders">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Customers</td>
+                                    <td>Product Name</td>
+                                    <td>Price</td>
+                                    <td>Payment</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>VOYAGER68 v2 Lite 65%</td>
+                                    <td>$753</td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <span class="status delivered">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            DELIVERED
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>Nvidia GeForce RTX 4090 Founders Edition</td>
+                                    <td>$1310</td>
+                                    <td>Due</td>
+                                    <td>
+                                        <span class="status pending">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            PENDING
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>APOLLO61 Lite 60% Wired Mechanical</td>
+                                    <td>$620</td>
+                                    <td>Due</td>
+                                    <td>
+                                        <span class="status inProgress">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            IN PROGRESS
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>Intel Core i9-14900K LGA1700</td>
+                                    <td>$825</td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <span class="status delivered">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            DELIVERED
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>Logitech G305 Lightspeed Mouse</td>
+                                    <td>$553</td>
+                                    <td>Due</td>
+                                    <td>
+                                        <span class="status pending">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            PENDING
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>Gigabyte Radeon Rx 6900 Xt 16gb</td>
+                                    <td>$999</td>
+                                    <td>Paid</td>
+                                    <td>
+                                        <span class="status return">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            RETURN
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h4>Mathers <br> <span>Califonia, USA</span></h4>
+                                    </td>
+                                    <td>Intel Core I7-12700f</td>
+                                    <td>$620</td>
+                                    <td>Due</td>
+                                    <td>
+                                        <span class="status inProgress">
+                                            <ion-icon name="disc-outline"></ion-icon>
+                                            IN PROGRESS
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="pagination">
+                            <ion-icon name="chevron-back-outline" class="page-icon"></ion-icon>
+                            <span class="page-number">1</span>
+                            <span class="page-number active">2</span>
+                            <span class="page-number">3</span>
+                            <span class="page-number">4</span>
+                            <span class="page-number">5</span>
+                            <ion-icon name="chevron-forward-outline" class="page-icon"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="../code/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
